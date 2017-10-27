@@ -1,11 +1,12 @@
 
 def fizzbuzz(int)
   if int % 3 == 0
-    return "Fizz"
+    fizzbuzz = "Fizz"
   elsif int % 5 == 0
-    return "Buzz"
+    fizzbuzz = "Buzz"
   end
   if int % 3 == 0 && int % 5 == 0
-    return "FizzBuzz"
+    fizzbuzz = "FizzBuzz"
   end
+  return fizzbuzz
 end
